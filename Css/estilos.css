@@ -1,0 +1,104 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+background-image: url("../Img/fondo2.jpg");
+background-size: cover;
+height: 100%;
+background-repeat: no-repeat;
+font-family: 'Open Sans', sans-serif;
+background-position: center;
+
+}
+
+
+
+form{
+border-radius: 5px;
+width: 470px;
+height: 750px;
+background-color: rgb(255, 255, 255);
+font-size: 11px;
+color: rgb(83, 83, 83);
+
+}
+
+
+p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: #393e46;
+}
+
+
+h3{
+
+font-weight: bold;
+
+}
+
+
+
+.form-check-label{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+
+}
+#inputs{
+
+border-color: #c1c4c7;
+border-radius: 0;
+border-style: solid;
+border-top: 0px;
+border-left:  0px;
+border-right: 0px;
+transition: 500ms;
+font-size: 13px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+#inputs:focus{
+
+box-shadow: none;
+outline: none;
+border-color: #0779e4;
+border-width: 2px;
+
+}
+
+
+
+button{
+
+   font-weight: bold;
+   background-color: #0779e4;
+   color: #fff;
+   border-radius: 8px;
+   border-style: solid;
+   border-color:#0779e4;
+   transition: 400ms;
+}
+
+button:focus{
+
+outline: none;
+
+}
+
+ button:hover{
+    border-color: #0c59a1;
+    background-color: #0c59a1;
+}
+
+.alerta{
+display: none;
+    color: red;
+}
