@@ -12,6 +12,3 @@ Utilice las típicas variables de sesión para guardar los datos del usuario reg
 ![](sesion.png/)
 
 
-## Vista de Logueo
-
-![](pantalla de biennvenida.png/)
